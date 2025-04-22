@@ -8,7 +8,6 @@ export default defineConfig({
       input: [
         'resources/js/app.jsx', // This should be your main entry file for React
         'resources/css/app.css', // Include app.css for any global styles
-        'resources/css/styles.css',
       ],
     }),
     react(),  // React plugin for JSX support
